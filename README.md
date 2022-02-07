@@ -13,7 +13,7 @@ This project is build with:
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 - ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
 
-## [Demo](https://andersonlebon.github.io/math-magicians/#/)
+## [Demo]()
 
 ## Getting Started
 
@@ -21,6 +21,7 @@ To get the content of this project locally you need to run this command in your 
 
 - `git clone https://github.com/andersonlebon/math-magicians.git`
 - `cd math-magicians`
+- > `npm install` > This command will download all the dependancies of the project
 - Use `npm start` to run the app in live server
 
 ## Test
