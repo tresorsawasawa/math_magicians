@@ -21,17 +21,16 @@ To get the content of this project locally you need to run this command in your 
 
 - `git clone https://github.com/andersonlebon/math-magicians.git`
 - `cd math-magicians`
-- > `npm install` > This command will download all the dependancies of the project
+- `npm install` To download all the dependancies of the project
 - Use `npm start` to run the app in live server
 
 ## Test
 
 For tracking linter errors locally you need to follow these steps:
 
-- After cloning the project you need to run this command
+- After cloning the project make sure you have run this command
 
   > `npm install`
-  > This command will download all the dependancies of the project
 
 - For tracking the linter errors in HTML file run:
 
