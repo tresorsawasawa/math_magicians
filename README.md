@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Math-magicians
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![math-magicians_]()
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+This project is build with:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=html5&logoColor=ffffff&labelColor=E34F26),
+- ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6),
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## [Demo](https://andersonlebon.github.io/math-magicians/#/)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get the content of this project locally you need to run this command in your terminal:
 
-### `npm run build`
+- `git clone https://github.com/andersonlebon/math-magicians.git`
+- `cd math-magicians`
+- Use `npm start` to run the app in live server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For tracking linter errors locally you need to follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- After cloning the project you need to run this command
 
-### `npm run eject`
+  > `npm install`
+  > This command will download all the dependancies of the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- For tracking the linter errors in HTML file run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  > `npx hint .`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- For tracking the linterj errors in CSS file run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  > `npx stylelint "\*_/_.{css,scss}"`
 
-## Learn More
+- And For tracking the linter errors in JavaScript file run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  > `npx eslint .`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Use `npm run build` to run the app in live server
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Anderson Caleb**
 
-### Analyzing the Bundle Size
+- GitHub: [@tresorsawasawa](https://github.com/tresorsawasawa)
+- Twitter: [@tresorsawasawa](https://twitter.com/TresorSawasawa)
+- LinkedIn: [Trésor Sawasawa](https://www.linkedin.com/in/tr%C3%A9sor-sawasawa-43745320b/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## :handshake: Contributing
 
-### Making a Progressive Web App
+Feel free to check the [issues page](https://github.com/tresorsawasawa/math_magicians/issues)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Show your support
 
-### Advanced Configuration
+Give a :star: if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Acknowledgments
 
-### Deployment
+- Thanks to everyone who will get time to check this code especially to code reviewers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
