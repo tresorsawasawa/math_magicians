@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![math-magicians_]()
+![math-magicians_](./src/images/math_magicians.png)
 
 ## Built With
 
