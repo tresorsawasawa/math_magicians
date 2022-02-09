@@ -1,4 +1,4 @@
-# Math-magicians
+# Math magicians
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,19 +8,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project is build with:
 
-- ![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=html5&logoColor=ffffff&labelColor=E34F26),
-- ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6),
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 - ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![Sass](https://img.shields.io/badge/-Sass-000000?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 
-## [Demo]()
+## Live Demo
+
+[Demo](https://tresorsawasawa.github.io/math_magicians/)
 
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- `git clone https://github.com/andersonlebon/math-magicians.git`
-- `cd math-magicians`
+- `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
+- `cd math_magicians`
 - `npm install` To download all the dependancies of the project
 - Use `npm start` to run the app in live server
 
@@ -30,7 +31,7 @@ For tracking linter errors locally you need to follow these steps:
 
 - After cloning the project make sure you have run this command
 
-  > `npm install`
+  > `npm install` command
 
 - For tracking the linter errors in HTML file run:
 
@@ -48,7 +49,7 @@ For tracking linter errors locally you need to follow these steps:
 
 ## Author
 
-👤 **Anderson Caleb**
+👤 **Tresor Sawasawa**
 
 - GitHub: [@tresorsawasawa](https://github.com/tresorsawasawa)
 - Twitter: [@tresorsawasawa](https://twitter.com/TresorSawasawa)
