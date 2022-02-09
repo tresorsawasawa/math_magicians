@@ -4,9 +4,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  -webkit-user-drag: none;
 }
 
 body {
+  height: 100%;
   background-color: $bg-color;
-  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
