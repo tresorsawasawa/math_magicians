@@ -27,6 +27,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 80px);
     color: $text-color;
+    font-size: 1.2rem;
 
     .btn {
       cursor: pointer;
