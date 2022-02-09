@@ -1,0 +1,48 @@
+@import "variables";
+
+.container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  margin: 80px auto 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  & .screen-result {
+    background-color: $display-bg-color;
+    color: $display-text-color;
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    font-size: 2rem;
+    padding: 20px 10px;
+    border-top: 1px solid $display-text-color;
+  }
+
+  & .calc-wrapper {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 80px);
+    color: $text-color;
+    font-size: 1.2rem;
+
+    .btn {
+      cursor: pointer;
+      font-weight: bolder;
+      border: 1px solid $border-color;
+    }
+
+    .bg-orange {
+      background-color: $operators-bg-color;
+      border-right: none;
+    }
+
+    .btn-0 {
+      -ms-grid-column: span 2;
+      grid-column: span 2;
+    }
+  }
+}
