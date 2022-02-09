@@ -1,12 +1,12 @@
 # Math magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![math-magicians_](./src/images/math_magicians.png)
+![math-magicians](./src/images/math_magicians.png)
 
 ## Built With
 
-This project is build with:
+This project is built with:
 
 - ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
 - ![Sass](https://img.shields.io/badge/-Sass-000000?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
@@ -14,7 +14,7 @@ This project is build with:
 
 ## Live Demo
 
-[Demo](https://tresorsawasawa.github.io/math_magicians/)
+Click [here](https://tresorsawasawa.github.io/math_magicians/) to see the live demo
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To get the content of this project locally you need to run this command in your 
 - `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
 - `cd math_magicians`
 - `npm install` To download all the dependancies of the project
-- Use `npm start` to run the app in live server
+- Use `npm start` to run the app in your browser
 
 ## Test
 
