@@ -18,6 +18,8 @@
     font-size: 2rem;
     padding: 20px 10px;
     border-top: 1px solid $display-text-color;
+    overflow-wrap: break-word;
+    line-height: 30px;
   }
 
   & .calc-wrapper {
@@ -35,9 +37,17 @@
       border: 1px solid $border-color;
     }
 
+    .light-gray {
+      &:hover { background-color: $numbers-hover-bg-color; }
+      &:active { background-color: $numbers-active-bg-color; }
+    }
+
     .bg-orange {
       background-color: $operators-bg-color;
       border-right: none;
+
+      &:hover { background-color: $operators-hover-bg-color; }
+      &:active { background-color: $operators-active-bg-color; }
     }
 
     .btn-0 {
