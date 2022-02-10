@@ -93,12 +93,12 @@ class Calculator extends Component {
             9
           </button>
           <button
-            id="X"
+            id="x"
             type="button"
             className="btn bg-orange"
             onClick={this.handleCalculate}
           >
-            X
+            x
           </button>
           <button
             type="button"
