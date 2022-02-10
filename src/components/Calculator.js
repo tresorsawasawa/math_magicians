@@ -16,8 +16,6 @@ class Calculator extends Component {
   }
 
   handleCalculate = ({ currentTarget: btn }) => {
-    // console.log(btn.outerText);
-
     try {
       const buttonName = btn.outerText === '' ? btn.id : btn.outerText;
       const obj = calculate(this.state, buttonName);

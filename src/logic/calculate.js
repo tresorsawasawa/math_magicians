@@ -11,7 +11,6 @@ const isNumber = (item) => !!item.match(/[0-9]+/);
  *   next:String       the next number to be operated on with the total
  *   operation:String  +, -, etc.
  */
-
 const calculate = (obj, buttonName) => {
   if (buttonName === 'AC') {
     return {
