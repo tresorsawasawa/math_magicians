@@ -28,23 +28,26 @@ const Calculator = () => {
   const { next, total } = state;
 
   return (
-    <div className="container">
-      <div className="screen-result light-text">
-        {total && next ? next : total || next || '0'}
+    <section className="container">
+      <h3 className="textLine">Let&apos;s do some math!!</h3>
+      <div className="calc-content">
+        <div className="screen-result light-text">
+          {total && next ? next : total || next || '0'}
+        </div>
+        <div className="calc-wrapper">
+          {CalcData.map((row) => row.map((data) => (
+            <button
+              type="button"
+              key={data.name}
+              className={data.className}
+              onClick={(e) => handleCalculate(e)}
+            >
+              {data.name}
+            </button>
+          )))}
+        </div>
       </div>
-      <div className="calc-wrapper">
-        {CalcData.map((row) => row.map((data) => (
-          <button
-            type="button"
-            key={data.name}
-            className={data.className}
-            onClick={(e) => handleCalculate(e)}
-          >
-            {data.name}
-          </button>
-        )))}
-      </div>
-    </div>
+    </section>
   );
 };
 
