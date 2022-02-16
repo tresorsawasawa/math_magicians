@@ -1,58 +1,78 @@
 @import "variables";
 
 .container {
-  width: 50%;
+  width: 90%;
   height: 100%;
   display: flex;
-  margin: 80px auto 0;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  margin: 3rem auto 0;
+  justify-content: space-between;
 
-  & .screen-result {
-    background-color: $display-bg-color;
-    color: $display-text-color;
-    height: 80px;
-    width: 100%;
-    text-align: right;
-    font-size: 2rem;
-    padding: 20px 10px;
-    border-top: 1px solid $display-text-color;
-    overflow-wrap: break-word;
-    line-height: 30px;
+  h3 {
+    width: 40%;
+    font-size: 22px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &::after {
+      content: "";
+      background-color: red;
+      height: 3px;
+      width: 30%;
+      margin-top: 4px;
+    }
   }
 
-  & .calc-wrapper {
-    display: -ms-grid;
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 80px);
-    color: $text-color;
-    font-size: 1.2rem;
+  & .calc-content {
+    width: 50%;
 
-    .btn {
-      cursor: pointer;
-      font-weight: bolder;
-      border: 1px solid $border-color;
+    & .screen-result {
+      background-color: $display-bg-color;
+      color: $display-text-color;
+      height: 80px;
+      width: 100%;
+      text-align: right;
+      font-size: 2rem;
+      padding: 20px 10px;
+      border-top: 1px solid $display-text-color;
+      overflow-wrap: break-word;
+      line-height: 30px;
     }
 
-    .light-gray {
-      &:hover { background-color: $numbers-hover-bg-color; }
-      &:active { background-color: $numbers-active-bg-color; }
-    }
+    & .calc-wrapper {
+      display: -ms-grid;
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, 80px);
+      color: $text-color;
+      font-size: 1.2rem;
 
-    .bg-orange {
-      background-color: $operators-bg-color;
-      border-right: none;
+      .btn {
+        font-size: 1.15rem;
+        cursor: pointer;
+        font-weight: bolder;
+        border: 1px solid $border-color;
+      }
 
-      &:hover { background-color: $operators-hover-bg-color; }
-      &:active { background-color: $operators-active-bg-color; }
-    }
+      .light-gray {
+        &:hover { background-color: $numbers-hover-bg-color; }
+        &:active { background-color: $numbers-active-bg-color; }
+      }
 
-    .btn-0 {
-      -ms-grid-column: span 2;
-      grid-column: span 2;
+      .bg-orange {
+        background-color: $operators-bg-color;
+        border-right: none;
+
+        &:hover { background-color: $operators-hover-bg-color; }
+        &:active { background-color: $operators-active-bg-color; }
+      }
+
+      .btn-0 {
+        -ms-grid-column: span 2;
+        grid-column: span 2;
+      }
     }
   }
 }
