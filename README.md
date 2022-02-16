@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Math magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![math-magicians](./src/images/math_magicians.png)
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+This project is built with:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
+- ![Sass](https://img.shields.io/badge/-Sass-000000?style=flat&logo=sass&logoColor=ffffff&labelColor=%23CC6699)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+Click [here](https://tresorsawasawa.github.io/math_magicians/) to see the live demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get the content of this project locally you need to run this command in your terminal:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
+- `cd math_magicians`
+- `npm install` To download all the dependancies of the project
+- Use `npm start` to run the app in your browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Test
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For tracking linter errors locally you need to follow these steps:
 
-### `npm run eject`
+- After cloning the project make sure you have run this command
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  > `npm install` command
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- For tracking the linter errors in HTML file run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  > `npx hint .`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- For tracking the linterj errors in CSS file run:
 
-## Learn More
+  > `npx stylelint "\*_/_.{css,scss}"`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- And For tracking the linter errors in JavaScript file run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  > `npx eslint .`
 
-### Code Splitting
+- Use `npm run build` to run the app in live server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+👤 **Tresor Sawasawa**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@tresorsawasawa](https://github.com/tresorsawasawa)
+- Twitter: [@tresorsawasawa](https://twitter.com/TresorSawasawa)
+- LinkedIn: [Trésor Sawasawa](https://www.linkedin.com/in/tr%C3%A9sor-sawasawa-43745320b/)
 
-### Making a Progressive Web App
+## :handshake: Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/tresorsawasawa/math_magicians/issues)
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a :star: if you like this project!
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Thanks to everyone who will get time to check this code especially to code reviewers.
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
