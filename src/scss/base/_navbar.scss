@@ -1,0 +1,23 @@
+@import "variables";
+
+.navList {
+  display: flex;
+  padding-right: 2rem;
+
+  & li {
+    padding-left: 1rem;
+    list-style: none;
+    font-size: 22px;
+
+    a {
+      text-decoration: none;
+      color: $text-color;
+
+      &.active-style {
+        font-weight: 600;
+        color: $operators-hover-bg-color;
+        border-bottom: double $operators-hover-bg-color;
+      }
+    }
+  }
+}
