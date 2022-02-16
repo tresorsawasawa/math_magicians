@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+src/test/__snapshots__
 
 # testing
 /coverage
