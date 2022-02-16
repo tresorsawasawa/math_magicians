@@ -17,7 +17,7 @@
 
     &::after {
       content: "";
-      background-color: red;
+      background-color: $operators-active-bg-color;
       height: 3px;
       width: 30%;
       margin-top: 4px;
