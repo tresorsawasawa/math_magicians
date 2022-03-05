@@ -14,7 +14,7 @@ This project is built with:
 
 ## Live Demo
 
-Click [here](https://tresorsawasawa.github.io/math_magicians/) to see the live demo
+[Live Demo](https://tresorsawasawa.github.io/math_magicians/) [heroku](https://math-magicians-fans.herokuapp.com/) [Netlify]()
 
 ## Getting Started
 

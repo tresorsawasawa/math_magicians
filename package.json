@@ -2,7 +2,6 @@
   "name": "math_magicians",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tresorsawasawa.github.io/math_magicians/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -54,6 +53,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "netlify-cli": "^9.12.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
