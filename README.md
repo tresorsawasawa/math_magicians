@@ -14,16 +14,23 @@ This project is built with:
 
 ## Live Demo
 
-Click [here](https://tresorsawasawa.github.io/math_magicians/) to see the live demo
+[Live Demo](https://tresorsawasawa.github.io/math_magicians/) [heroku](https://math-magicians-fans.herokuapp.com/) [Netlify]()
 
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
-- `cd math_magicians`
-- `npm install` To download all the dependancies of the project
-- Use `npm start` to run the app in your browser
+1. `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
+2. `cd math_magicians`
+3. `npm install` To download all the dependancies of the project
+4. `npm start` 
+   The page will open at http://localhost:3000 in your browser.
+
+### Builds the app for production
+
+`npm run build`
+
+It correctly bundles React in production mode and optimizes the build for the best performance. 
 
 ## Test
 
@@ -45,15 +52,13 @@ For tracking linter errors locally you need to follow these steps:
 
   > `npx eslint .`
 
-- Use `npm run build` to run the app in live server
-
 ## Author
 
 👤 **Tresor Sawasawa**
 
 - GitHub: [@tresorsawasawa](https://github.com/tresorsawasawa)
 - Twitter: [@tresorsawasawa](https://twitter.com/TresorSawasawa)
-- LinkedIn: [Trésor Sawasawa](https://www.linkedin.com/in/tr%C3%A9sor-sawasawa-43745320b/)
+- LinkedIn: [Trésor Sawasawa](https://www.linkedin.com/in/tresor-sawasawa/)
 
 ## :handshake: Contributing
 
