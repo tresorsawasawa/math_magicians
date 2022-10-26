@@ -20,10 +20,39 @@ Click [here](https://tresorsawasawa.github.io/math_magicians/) to see the live d
 
 To get the content of this project locally you need to run this command in your terminal:
 
-- `git clone hhttps://github.com/tresorsawasawa/math_magicians.git`
-- `cd math_magicians`
-- `npm install` To download all the dependancies of the project
-- Use `npm start` to run the app in your browser
+### Preriquiresites
+
+First make sure you have the following tools in local machine:
+
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+- [Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
+- IDE(e.g.: Vscode, Sublime,...)
+
+### Setup 
+
+1. Clone the repo
+```
+git clone hhttps://github.com/tresorsawasawa/math_magicians.git
+```
+2. Access the cloned the repo 
+```
+cd math_magicians
+```
+
+### Install
+
+- To install all the dependancies of the project:
+```
+npm install
+```
+- Create the production mode
+```
+npm run build
+```
+- Run the app locally
+```
+npm start or npm run start
+``` 
 
 ## Test
 
